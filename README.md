@@ -25,6 +25,13 @@ The dataset used in this project is a modified HR dataset representing employee 
 | Decision Tree | ~98% | ~96% | ~91% | ~94% | ~97% |
 | Random Forest | ~97% | ~95% | ~92% | ~93% | ~98% |
 
+## Skills Used 
+
+- Python (Pandas, NumPy, Scikit-learn)  
+- Machine Learning (Logistic Regression, Decision Tree, Random Forest, XGBoost)  
+- Data Visualization (Matplotlib, Seaborn)  
+- Statistical Analysis
+  
 ## Key Insights
 
 - Employees with very low satisfaction levels are much more likely to leave.
