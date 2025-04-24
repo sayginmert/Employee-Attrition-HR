@@ -22,7 +22,9 @@ The dataset used in this project is a modified HR dataset representing employee 
 | Model | Accuracy | Precision | Recall | F1 Score | AUC |
 ----------------------------------------------------------
 | Logistic Regression | ~82% | ~79% | ~82% | ~80% | ~86% |
+----------------------------------------------------------
 | Decision Tree | ~98% | ~96% | ~91% | ~94% | ~97% |
+----------------------------------------------------
 | Random Forest | ~97% | ~95% | ~92% | ~93% | ~98% |
 
 ## Key Insights
