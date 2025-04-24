@@ -2,7 +2,7 @@
 
 This repository presents a complete end-to-end data analysis and machine learning project that aims to understand, analyze, and predict employee attrition at Salifort Motors. The goal is to identify key patterns in employee behavior and build predictive models to support data-driven HR decisions and reduce employee turnover.
 
-🔗 **Website:**  
+🔗 **Website:**  https://sayginmert.github.io/Employee-Attrition-SalifortMotors/
 
 ## Key Objectives
 
