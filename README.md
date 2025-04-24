@@ -44,8 +44,4 @@ The dataset used in this project is a modified HR dataset representing employee 
 - **Live Project:** 
   
 📬 Contact
-Mert Saygin
-Data Professional & Machine Learning Enthusiast
-Feel free to reach out via LinkedIn or GitHub.
-
-
+Mert Saygin | Data Professional & Machine Learning Enthusiast | Feel free to reach out via LinkedIn or GitHub.
