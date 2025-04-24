@@ -2,7 +2,7 @@
 
 This repository presents a complete end-to-end data analysis and machine learning project that aims to understand, analyze, and predict employee attrition at Salifort Motors. The goal is to identify key patterns in employee behavior and build predictive models to support data-driven HR decisions and reduce employee turnover.
 
-🔗 **Website:** [sayginmert.github.io/Waze-Churn-Prediction](https://sayginmert.github.io/Waze-Churn-Prediction/)  
+🔗 **Website:**  
 
 ## Key Objectives
 
@@ -39,8 +39,8 @@ Random Forest | ~97% | ~95% | ~92% | ~93% | ~98%
 
 ## 📎 Links  
 
-- **GitHub Repository:** [GitHub](https://github.com/sayginmert/Waze-Churn-Prediction)  
-- **Live Project:** [sayginmert.github.io/Waze-Churn-Prediction](https://sayginmert.github.io/Waze-Churn-Prediction/)
+- **GitHub Repository:** [GitHub](https://github.com/sayginmert/Employee-Attrition-HR)  
+- **Live Project:** 
   
 📬 Contact
 Mert Saygin
