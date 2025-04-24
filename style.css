@@ -95,10 +95,10 @@ a:hover {
     color: #FFB400; /* Branding: Icon Hover */
     }
         
-.project-card-waze {
+.project-card-salifort {
     background-color: rgba(255, 255, 255, 0.8); /* Set background to white with transparency */
     background-blend-mode: overlay; /* Blend the image and background */
-    background-image: url('images/waze_logo.png'); /* Add the Waze logo */
+    background-image: url('images/SalifortMotors_logo_.png'); /* Add the Salifort logo */
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -108,7 +108,7 @@ a:hover {
     transition: transform 0.3s ease;
     }
 
-.project-card-waze:hover {
+.project-card-salifort:hover {
     transform: scale(1.03);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Verstärkter Schatten beim Hover */
     }
