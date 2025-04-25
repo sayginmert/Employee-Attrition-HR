@@ -16,6 +16,7 @@ header {
 h1 {
     color: #FFB400;
     font-size: 2.8em;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -56,24 +57,21 @@ section:hover {
     background-color: #e6f7ff;
 }
 
-.button {
-    margin-top: 20px;
-    background-color: #00AEFF;
-    color: white;
+.btn {
+    display: inline-block;
     padding: 12px 24px;
-    border: none;
-    border-radius: 6px;
+    background-color: #FFB400;
+    color: white;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
-    display: inline-block;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
-.button:hover {
-    background-color: #008fd1;
+.btn:hover {
+    background-color: #e69500;
 }
 
-/* Links */
 a {
     color: #00AEFF;
     text-decoration: none;
@@ -112,22 +110,6 @@ a:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.btn {
-    display: inline-block;
-    padding: 10px 22px;
-    background-color: #FFB400;
-    color: white;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #e69500;
-}
-
-/* --- Carousel Gallery --- */
 .carousel-grid {
     overflow: hidden;
     width: 100%;
@@ -146,4 +128,5 @@ a:hover {
 .carousel-track img {
     max-height: 240px;
     border-radius: 12px;
-    transition: transform 0.
+    transition: transform 0.3s ease-in-out;
+}
