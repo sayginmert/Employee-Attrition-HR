@@ -108,11 +108,6 @@ a:hover {
     transition: transform 0.3s ease;
 }
 
-.project-card-salifort:hover {
-    transform: scale(1.03);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
 .carousel-grid {
     overflow: hidden;
     width: 100%;
