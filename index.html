@@ -51,6 +51,47 @@
     <section>
         <h2>Models & Evaluation</h2>
         <p>We tested Logistic Regression, Decision Tree, and Random Forest models. Evaluation was based on metrics like accuracy, precision, recall, F1-score, and AUC to identify the best-performing model for attrition prediction.</p>
+
+        <table>
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>F1-Score</th>
+                <th>Accuracy</th>
+                <th>AUC</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Random Forest</strong></td>
+                <td>0.954</td>
+                <td>0.922</td>
+                <td>0.938</td>
+                <td>0.980</td>
+                <td>0.956</td>
+            </tr>
+            <tr>
+                <td><strong>Decision Tree</strong></td>
+                <td>0.967</td>
+                <td>0.918</td>
+                <td>0.942</td>
+                <td>0.981</td>
+                <td>0.976</td>
+            </tr>
+            <tr>
+                <td><strong>Logistic Regression</strong></td>
+                <td>0.79</td>
+                <td>0.82</td>
+                <td>0.80</td>
+                <td>0.82</td>
+                <td>N/A</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>From the table above, it is clear that the Decision Tree and Random Forest models perform well with high Precision, Recall, F1-Score, and Accuracy. Logistic Regression, while still useful, shows lower performance compared to the other models.</p>  
     </section>
 
     <!-- Notebooks Section -->
