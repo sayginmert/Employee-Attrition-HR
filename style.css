@@ -138,6 +138,27 @@ a:hover {
     100% { transform: translateX(-50%); }
 }
 
+/* "Back to Homepage" Button */
+#back-home {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #FFB400; /* Gleiche Farbe wie die anderen Buttons */
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: #e69500; /* Etwas dunklerer Farbton */
+}
+
 /* ==== Kontaktbereich ==== */
 .contact {
     background-color: #00AEFF;
