@@ -29,6 +29,16 @@ p {
     color: #555;
 }
 
+/* Entferne die schwarzen Punkte (Listenelemente) */
+ul {
+    list-style-type: none;  /* Entfernt die standardmäßigen Aufzählungspunkte */
+    padding: 0;             /* Entfernt den Standard-Padding */
+}
+
+ul li {
+    margin: 10px 0;         /* Fügt einen Abstand zwischen den Listenelementen hinzu */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
