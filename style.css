@@ -138,6 +138,49 @@ a:hover {
     100% { transform: translateX(-50%); }
 }
 
+/* Zentrierte Tabelle */
+.evaluation-metrics {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.evaluation-metrics th, .evaluation-metrics td {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.evaluation-metrics thead {
+    background-color: #FFB400; /* Gleiche Farbe wie der Button */
+    color: white;
+}
+
+.evaluation-metrics tbody tr:nth-child(even) {
+    background-color: #f4f4f4; /* Helle Hintergrundfarbe für jede gerade Zeile */
+}
+
+.evaluation-metrics tbody tr:hover {
+    background-color: #e6e6e6; /* Hover-Effekt für die Zeilen */
+}
+
+.evaluation-metrics th {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.evaluation-metrics td {
+    font-weight: 500;
+}
+
+.evaluation-metrics td strong {
+    color: #FFB400;
+}
+
 /* "Back to Homepage" Button */
 #back-home {
     text-align: center;
