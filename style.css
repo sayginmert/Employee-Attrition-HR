@@ -98,7 +98,7 @@ a:hover {
 .project-card-salifort {
     background-color: rgba(255, 255, 255, 0.8); /* Set background to white with transparency */
     background-blend-mode: overlay; /* Blend the image and background */
-    background-image: url('images/SalifortMotors_logo_.png'); /* Add the Salifort logo */
+    background-image: url('images/SalifortMotors_logo_small.png'); /* Add the Salifort logo */
     background-size: cover;
     background-position: center;
     padding: 20px;
