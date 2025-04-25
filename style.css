@@ -177,3 +177,38 @@ a:hover {
     transform: scale(1.05); /* Skaliert den Kontaktbereich beim Hover */
     background-color: #008fcc; /* Dunklere Hintergrundfarbe bei Hover */
     }
+
+evaluation-metrics {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.evaluation-metrics th, .evaluation-metrics td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.evaluation-metrics th {
+    background-color: #FFB400;
+    color: white;
+}
+
+.evaluation-metrics td {
+    background-color: #f4f4f4;
+}
+
+.visualizations img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.visualizations img:hover {
+    transform: scale(1.05);
+}
