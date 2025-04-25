@@ -12,15 +12,16 @@
     <!-- Hero Section -->
     <header>
         <div class="project-card-salifort">
-        <h1>Employee Attrition - Salifort Motors</h1>
-        <p>Predicting employee attrition using Machine Learning</p>
-        <nav>
-            <ul>
-                <li><a href="#overview">Overview</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+            <h1>Employee Attrition - Salifort Motors</h1>
+            <p>Predicting employee attrition using Machine Learning</p>
+            <nav>
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#models">Models & Evaluation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -37,58 +38,58 @@
         <p>Key visualizations were created using Matplotlib and Seaborn to illustrate attrition patterns, feature correlations, and model evaluation results.</p>
         <div class="carousel-grid">
             <div class="carousel-track">
-              <img src="images/CM_LogReg_SalifortMotors.png" alt="Correlation Matrix for Logistic Regression Model on Employee Attrition">
-              <img src="images/boxplot_satisfaction_by_tenure.png" alt="Boxplot satisfaction by tenure">
-              <img src="images/correlation_heatmap_salifort_motors.png" alt="Heatmap correlation">
-              <img src="images/countplot_salary.png" alt="Countplot Salary">
-              <img src="images/scatterplot_evaluation_score.png" alt="Scatterplot Evaluation score">
+                <img src="images/CM_LogReg_SalifortMotors.png" alt="Correlation Matrix for Logistic Regression Model on Employee Attrition">
+                <img src="images/boxplot_satisfaction_by_tenure.png" alt="Boxplot satisfaction by tenure">
+                <img src="images/correlation_heatmap_salifort_motors.png" alt="Heatmap correlation">
+                <img src="images/countplot_salary.png" alt="Countplot Salary">
+                <img src="images/scatterplot_evaluation_score.png" alt="Scatterplot Evaluation score">
             </div>
-          </div>
+        </div>
     </section>
 
     <!-- Models & Evaluation -->
-    <section>
-    <h2>Models & Evaluation</h2>
-    <p>We tested Logistic Regression, Decision Tree, and Random Forest models. Evaluation was based on metrics like accuracy, precision, recall, F1-score, and AUC to identify the best-performing model for attrition prediction.</p>
+    <section id="models">
+        <h2>Models & Evaluation</h2>
+        <p>We tested Logistic Regression, Decision Tree, and Random Forest models. Evaluation was based on metrics like accuracy, precision, recall, F1-score, and AUC to identify the best-performing model for attrition prediction.</p>
 
-    <table class="evaluation-metrics">
-        <thead>
-            <tr>
-                <th>Model</th>
-                <th>Precision</th>
-                <th>Recall</th>
-                <th>F1-Score</th>
-                <th>Accuracy</th>
-                <th>AUC</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Random Forest</strong></td>
-                <td>0.954</td>
-                <td>0.922</td>
-                <td>0.938</td>
-                <td>0.980</td>
-                <td>0.956</td>
-            </tr>
-            <tr>
-                <td><strong>Decision Tree</strong></td>
-                <td>0.967</td>
-                <td>0.918</td>
-                <td>0.942</td>
-                <td>0.981</td>
-                <td>0.976</td>
-            </tr>
-            <tr>
-                <td><strong>Logistic Regression</strong></td>
-                <td>0.79</td>
-                <td>0.82</td>
-                <td>0.80</td>
-                <td>0.82</td>
-                <td>N/A</td>
-            </tr>
-        </tbody>
-    </table>
+        <table class="evaluation-metrics">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                    <th>F1-Score</th>
+                    <th>Accuracy</th>
+                    <th>AUC</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Random Forest</strong></td>
+                    <td>0.954</td>
+                    <td>0.922</td>
+                    <td>0.938</td>
+                    <td>0.980</td>
+                    <td>0.956</td>
+                </tr>
+                <tr>
+                    <td><strong>Decision Tree</strong></td>
+                    <td>0.967</td>
+                    <td>0.918</td>
+                    <td>0.942</td>
+                    <td>0.981</td>
+                    <td>0.976</td>
+                </tr>
+                <tr>
+                    <td><strong>Logistic Regression</strong></td>
+                    <td>0.79</td>
+                    <td>0.82</td>
+                    <td>0.80</td>
+                    <td>0.82</td>
+                    <td>N/A</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
     <!-- Notebooks Section -->
