@@ -178,7 +178,7 @@ a:hover {
     background-color: #008fcc; /* Dunklere Hintergrundfarbe bei Hover */
     }
 
-evaluation-metrics {
+.evaluation-metrics {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -194,10 +194,20 @@ evaluation-metrics {
 .evaluation-metrics th {
     background-color: #FFB400;
     color: white;
+    font-size: 16px;
 }
 
 .evaluation-metrics td {
     background-color: #f4f4f4;
+    font-size: 15px;
+}
+
+.evaluation-metrics tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+.evaluation-metrics tr:hover td {
+    background-color: #e1e1e1;
 }
 
 .visualizations img {
